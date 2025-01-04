@@ -69,4 +69,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Feel free to contact me if you have any questions or suggestions. Happy habit building with PlanetBuddy!
+Feel free to contact me if you have any questions or suggestions. Happy habit building with PlanetBuddy!   
