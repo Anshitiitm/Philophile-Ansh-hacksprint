@@ -23,3 +23,6 @@ function register() {
     x.style.opacity = 0;  // Fade out login form
     y.style.opacity = 1;  // Fade in register form
 }
+
+
+
