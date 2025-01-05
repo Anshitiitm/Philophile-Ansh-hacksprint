@@ -1,5 +1,5 @@
-**PlanetBuddy - Track, Change, Contribute 🌍
-**
+PlanetBuddy - Track, Change, Contribute 🌍
+
 Deployed link:- https://planet-buddy.netlify.app/
 
 PlanetBuddy is a web application designed to help users track their daily environmental impact, adopt sustainable habits, and contribute towards a greener planet. Built as part of the IIT Madras Hacksprint by Team Philophile Ansh, this project combines innovation, interactivity, and eco-consciousness to inspire meaningful change.
