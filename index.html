@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Buddy</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Planet Buddy</h1>
+        <p>Your companion for a sustainable lifestyle!</p>
+    </header>
+
+    <main>
+        <!-- Daily Activity Tracker -->
+        <section id="activity-tracker">
+            <h2>Daily Activity Tracker</h2>
+            <form id="activity-form">
+                <div class="input-group">
+                    <label for="meditation">How many minutes did you meditate today?</label>
+                    <input type="number" id="meditation" placeholder="Minutes of Meditation" required>
+                </div>
+                <div class="input-group">
+                    <label for="sleep">How many hours did you sleep last night?</label>
+                    <input type="number" id="sleep" placeholder="Hours of Sleep" required>
+                </div>
+                <div class="input-group">
+                    <label for="exercise">How many minutes did you exercise today?</label>
+                    <input type="number" id="exercise" placeholder="Minutes of Exercise" required>
+                </div>
+                <div class="input-group">
+                    <label for="water">How many liters of water did you drink today?</label>
+                    <input type="number" id="water" placeholder="Liters of Water" required>
+                </div>
+                <div class="input-group">
+                    <label for="nutrition">How many servings of vegetables/fruits did you eat today?</label>
+                    <input type="number" id="nutrition" placeholder="Vegetables/Fruits Servings" required>
+                </div>
+                <button type="submit">Calculate My Score</button>
+            </form>
+            <div id="result" class="result">
+                <p>Your Score: <span id="user-score"></span></p>
+                <div id="score-tips"></div>
+            </div>
+        </section>
+
+        <!-- Eco Score Calculator -->
+        <section id="eco-score-calculator">
+            <h2>Eco Score Calculator</h2>
+            <form id="eco-form">
+                <div class="input-group">
+                    <label for="recycling">Do you recycle? (Yes/No)</label>
+                    <input type="text" id="recycling" placeholder="Yes or No" required>
+                </div>
+                <div class="input-group">
+                    <label for="energy">How much energy do you use daily? (Low/Medium/High)</label>
+                    <input type="text" id="energy" placeholder="Energy Consumption" required>
+                </div>
+                <div class="input-group">
+                    <label for="transportation">What transportation method do you use most? (Car/Bike/Public Transport)</label>
+                    <input type="text" id="transportation" placeholder="Transportation" required>
+                </div>
+                <div class="input-group">
+                    <label for="water-conservation">Do you practice water conservation? (Yes/No)</label>
+                    <input type="text" id="water-conservation" placeholder="Water Conservation" required>
+                </div>
+                <div class="input-group">
+                    <label for="food-waste">Do you minimize food waste? (Yes/No)</label>
+                    <input type="text" id="food-waste" placeholder="Food Waste Minimization" required>
+                </div>
+                <button type="submit">Calculate Eco Score</button>
+            </form>
+            <div id="eco-result" class="result">
+                <p>Your Eco Score: <span id="eco-score"></span></p>
+                <div id="eco-tips"></div>
+            </div>
+        </section>
+
+        <!-- Personalized Recommendations -->
+        <section id="personalized-recommendations">
+            <h2>Personalized Sustainability Tips</h2>
+            <div id="recommendations-list"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Planet Buddy. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
